@@ -1,13 +1,36 @@
+@font-face {
+  font-family: 'Pixel';
+  src: url(assets/fonts/VT323-Regular.ttf) format('truetype');
+}
+
 body {
   background-color: moccasin;
   margin: 12px;
+  font-family: 'Pixel', 'Regular';
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 section {
-  padding: 12px;
+  padding: 24px;
   margin-bottom: 12px;
+  border-radius: 12px;
+  border: 1px solid lavenderblush;
 }
 
 .light-background {
   background-color: antiquewhite;
+}
+
+.speaker-cat-container {
+  width: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.speaker-cat-container img {
+  width: 100%;
+  height: 100%;
 }
