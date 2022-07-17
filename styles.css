@@ -1,0 +1,13 @@
+body {
+  background-color: moccasin;
+  margin: 12px;
+}
+
+section {
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.light-background {
+  background-color: antiquewhite;
+}
