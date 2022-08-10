@@ -16,7 +16,9 @@ section {
   padding: 24px;
   margin-bottom: 12px;
   border-radius: 12px;
-  border: 1px solid lavenderblush;
+  margin: auto;
+  max-width: 50vw;
+  min-height: 50vh;
 }
 
 .light-background {
